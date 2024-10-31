@@ -1,0 +1,27 @@
+{
+  "name": "quiz-app-game-server",
+  "version": "1.0.0",
+  "description": "Quizz app game server with websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gammarinaldi/seratus-game-server.git"
+  },
+  "author": "Gama Rinaldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gammarinaldi/seratus-game-server/issues"
+  },
+  "homepage": "https://github.com/gammarinaldi/seratus-game-server#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1",
+    "winston": "^3.15.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
